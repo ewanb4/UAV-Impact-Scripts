@@ -9,7 +9,7 @@ MEng First-Class Honours research dissertation at The University of Manchester i
 
 ---
 
-## 🎯 Investigation Overview
+## Investigation Overview
 Evaluating the crashworthiness and trauma severity of low-altitude UAV operations under human-collision scenarios. The environment models high-speed kinetic energy transfer, structural collapse dynamics, and trauma criteria (Head Injury Criterion — HIC) across variable anatomical joint stiffness profiles.
 
 * **Impact Baseline:** 3.5 kg rotary-wing UAV operating under active closed-loop PID control at 16 m/s terminal velocity.
@@ -18,14 +18,14 @@ Evaluating the crashworthiness and trauma severity of low-altitude UAV operation
 
 ---
 
-## 🧠 Key Findings
+## Key Findings
 1. **Primary Impact Severity:** Active muscular bracing and joint stiffness do not mitigate initial contact forces or peak kinetic energy transfer during primary torso impacts.
 2. **Secondary Whiplash Mitigation:** Active stiffness significantly suppresses secondary post-collision head/neck whiplash and violent extremity flail, reducing secondary blunt trauma.
 3. **Multi-Body Mass Distribution:** Increasing ragdoll kinematic fidelity delays total structural collapse while redistributing shock loads across peripheral joints.
 
 ---
 
-## 📁 Repository Architecture
+## Repository Architecture
 
 ```text
 uav-impact-dynamics/
@@ -47,7 +47,7 @@ uav-impact-dynamics/
 
 ---
 
-## 📊 Analytical Methodology
+## Analytical Methodology
 
 ### Head Injury Criterion (HIC) Formulation
 Trauma severity is computed from linear acceleration profiles extracted at millisecond resolution:
@@ -60,7 +60,7 @@ Where:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * **Unity 2022.3 LTS** or higher
